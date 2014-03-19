@@ -7,7 +7,7 @@ Use Dynamic Type, introduced by iOS 7, in your Titanium SDK application!
 ## Accessing the TiDynamicTypeUtils Module
 To access this module from JavaScript, you would do the following:
 
-	var TiDynamicTypeUtils = require("it.smc.dynamicTypeUtils");
+	var dynamicTypeUtils = require("it.smc.dynamicTypeUtils");
 
 The TiDynamicTypeUtils variable is a reference to the Module object.Module object.
 
@@ -16,7 +16,6 @@ The TiDynamicTypeUtils variable is a reference to the Module object.Module objec
 To see a complete example have a look at `example/app.js`.
 
 ```js
-var dynamictype = require('it.smc.dynamictypeutils')
 
 var label = Ti.UI.createLabel({
 	font: {
